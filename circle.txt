@@ -1,0 +1,13 @@
+import turtle
+
+turtle.pensize(2)
+turtle.bgcolor('black')
+turtle.speed(0)
+for i in range(6):
+    for col in ['yellow','red','blue','white','green','cyan']:
+        turtle.color(col)
+        turtle.circle(100)
+        turtle.right(10)
+
+turtle.hideturtle()
+
